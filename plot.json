@@ -1,0 +1,258 @@
+{
+ "geoms": {
+ "geom1_bar_gsocplot": {
+ "geom": "rect",
+"classed": "geom1_bar_gsocplot",
+"aes": {
+ "fill": "proglang",
+"clickSelects": "proglang",
+"showSelected1": "proglang" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"clickSelects": "proglang",
+"showSelected": "proglang",
+"help_clickSelects": "proglang",
+"help_showSelected": "proglang" 
+},
+"types": {
+ "fill": "rgb",
+"clickSelects": "factor",
+"showSelected1": "factor",
+"PANEL": "integer",
+"group": "character",
+"ymin": "numeric",
+"ymax": "numeric",
+"xmin": "numeric",
+"xmax": "numeric" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+} 
+},
+"selectors": {
+ "proglang": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"clickSelects": true,
+"showSelected": true,
+"selected": [ "R", "Python", "C++", "Javascript", "C" ],
+"levels": [ "R", "Python", "C++", "Javascript", "C" ],
+"update": [
+ "geom1_bar_gsocplot" 
+] 
+} 
+},
+"plots": {
+ "gsocplot": {
+ "panel_margin_lines":     0.27,
+"legend": {
+ "proglang": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "proglang",
+"class": "proglang",
+"selector": "proglang",
+"is_discrete": true,
+"legend_type": "fill",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "polygonfill": "#F8766D",
+"polygonsize":      0.5,
+"polygonlinetype":        1,
+"label": "C" 
+},
+{
+ "polygonfill": "#A3A500",
+"polygonsize":      0.5,
+"polygonlinetype":        1,
+"label": "C++" 
+},
+{
+ "polygonfill": "#00BF7D",
+"polygonsize":      0.5,
+"polygonlinetype":        1,
+"label": "Javascript" 
+},
+{
+ "polygonfill": "#00B0F6",
+"polygonsize":      0.5,
+"polygonlinetype":        1,
+"label": "Python" 
+},
+{
+ "polygonfill": "#E76BF3",
+"polygonsize":      0.5,
+"polygonlinetype":        1,
+"label": "R" 
+} 
+] 
+} 
+},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+ 1,
+2,
+3,
+4 
+] 
+],
+"y": [
+ [
+        0,
+      20,
+      40,
+      60 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [] 
+],
+"y": [
+ [
+        0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+ 1,
+2,
+3,
+4 
+],
+"xlab": [
+ "cern",
+"mnepython",
+"numfocus",
+"rproj" 
+],
+"xrange": [      0.4,      4.6 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+      20,
+      40,
+      60 
+],
+"ylab": [
+ "0",
+"20",
+"40",
+"60" 
+],
+"yrange": [    -3.35,    70.35 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "gsocorg",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "projcount",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "cern",
+"mnepython",
+"numfocus",
+"rproj" 
+],
+"ylabs": [
+ "0",
+"20",
+"40",
+"60" 
+],
+"title": "GSOC Organizations by Programming Language",
+"title_size": "14.4pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom1_bar_gsocplot" 
+] 
+} 
+},
+"source": "https://github.com/AasmaGupta/gsoc-viz/blob/main/easy.r",
+"title": "GSOC Organizations by Programming Language" 
+}
